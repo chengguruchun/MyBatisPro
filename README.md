@@ -30,3 +30,7 @@ https://blog.csdn.net/zht666/article/details/8955952
 
 -  Mybatis中自动生成主键
 https://blog.csdn.net/suwu150/article/details/52895855/
+
+## [官网](http://www.mybatis.org/mybatis-3/zh/index.html)
+
+## [mybatis优化配置](https://www.cnblogs.com/xdp-gacl/p/4264301.html)
