@@ -15,15 +15,13 @@ mybatis入门简单实例
 
 ## 入到的问题汇总
 - 对实体 "characterEncoding" 的引用必须以 ';' 分隔符结尾。
-问题描述： 
-mybatis连接mysql数据库时，url中指定了编码格式以及ssl方式：
+  问题描述： 
+   mybatis连接mysql数据库时，url中指定了编码格式以及ssl方式：
+  <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useSSL=true&characterEncoding=utf8" />
 
-<property name="url" value="jdbc:mysql://localhost:3306/mybatis?useSSL=true&characterEncoding=utf8" />
-
-解决方案： 
-在xml的配置文件中 “；”要用 “ &amp;” 代替。
-
-参考：https://blog.csdn.net/cuiyaoqiang/article/details/51853052
+  解决方案： 
+  在xml的配置文件中 “；”要用 “ &amp;” 代替。
+  参考：https://blog.csdn.net/cuiyaoqiang/article/details/51853052
 
 - mybatis连接mysql数据库插入中文乱码
 https://blog.csdn.net/zht666/article/details/8955952
